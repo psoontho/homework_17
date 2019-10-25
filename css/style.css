@@ -1,0 +1,20 @@
+.highlight {
+    height: 400px;
+    background-color: #D95D5A;
+    color: white;
+    border-bottom-right-radius: 250px;
+}
+
+nav {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 0px 139px;
+    
+}
+
+.link {
+    margin: 0 20px;
+}
+
