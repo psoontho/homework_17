@@ -38,20 +38,21 @@ nav {
 
 .psychology {
     grid-area: psychology; 
-    height: 280px;
-    background-color: #5D99E8;
+
 }
 
 .philosophy {
     grid-area: philosophy; 
-    height: 280px;
-    background-color: #5D99E8;
 }
 
 .saxophone {
     grid-area: saxophone; 
-    height: 280px;
-    background-color: #5D99E8;
+    
 }
 
+.box {
+    background-color: #5D99E8;
+    height: 280px;
+    margin: 10px;
+}
 
