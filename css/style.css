@@ -56,3 +56,24 @@ nav {
     margin: 10px;
 }
 
+.caseStudy {
+    position: relative;
+}
+
+.caseStudyGrid {
+
+    display: grid;
+    margin: 0px 5%;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    height: 200px;
+    grid-template-areas: 
+    "image image text"
+    "image image empty"
+     ;
+    background-color: green;
+}
+
+.otter {
+    grid-area: image;
+}
