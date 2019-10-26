@@ -61,7 +61,6 @@ nav {
 }
 
 .caseStudyGrid {
-
     display: grid;
     margin: 0px 5%;
     grid-template-columns: 1fr 1fr 1fr; 
