@@ -7,12 +7,15 @@
 
 .myName {
     font-family: 'Caveat', cursive;
-    font-size: 68pt; 
+    font-size: 49pt; 
+    margin-left: 10%;
+    margin-top: 80px;
 }
 
 .title {
     font-family: 'Caveat', cursive;
-    font-size: 116pt; 
+    font-size: 95pt; 
+    margin-left: 10%;
 }
 
 nav {
@@ -20,30 +23,67 @@ nav {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    margin: 0px 139px;
+    margin-right: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
     
 }
 
 .link {
-    margin: 0 20px;
+    margin: 16px 20px 0px;
 }
 
 .introduction {
     display: grid;
-    margin: 0px 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "empty right right";
+    margin-bottom: 120px;
 }
 
 .text {
     grid-area: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    margin-top: 44px;
 }
 
 .boxes {
     display: grid;
-    margin: 0px 5%;
+    margin: 0px 10% 120px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "psychology philosophy saxophone";
+}
+
+.subHeading {
+    font-size: 39px;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    color: #D95D5A;
+    margin-top: 0px;
+    margin-bottom: 48px;
+
+}
+
+.subHeadingWhite {
+    font-size: 39px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0px 10% 48px;
+
+}
+
+.borderBox {
+    border: white solid 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 256px;
+    margin: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
 }
 
 .psychology {
@@ -63,7 +103,7 @@ nav {
 .box {
     background-color: #5D99E8;
     height: 280px;
-    margin: 10px;
+    margin: 8px;
 }
 
 
@@ -86,13 +126,16 @@ nav {
 }*/
 
 .caseStudy {
-    height: 400px;
+    padding-top: 48px;
+    margin-bottom: 48px;
+    height: 732px;
     background-color: #D95D5A;
     color: white;
 }
 
 .description {
     grid-area: text;
+    font-size: 16pt;
 }
 
 #otter-picture {
@@ -103,9 +146,9 @@ nav {
 .contactMe {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0px 5%;
+    margin: 0px 10% 80px;
     grid-template-areas: "myPicture empty-1 contact"; 
-    height: 200px;
+    height: 360px;
 }
 
 .picture {
@@ -118,11 +161,17 @@ nav {
 
 .contact {
     grid-area: contact;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .smContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.instagram {
+    margin: 0px 32px;
 }
 
