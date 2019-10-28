@@ -94,13 +94,25 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0px 5%;
-    grid-template-areas: myPicture empty-1 contact; 
+    grid-template-areas: "myPicture empty-1 contact"; 
     height: 200px;
 }
 
 .picture {
     grid-area: myPicture; 
     background-image: url("../images/my-picture.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.contact {
+    grid-area: contact;
+}
+
+.smContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
