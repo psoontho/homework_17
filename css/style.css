@@ -5,6 +5,16 @@
     border-bottom-right-radius: 250px;
 }
 
+.myName {
+    font-family: 'Caveat', cursive;
+    font-size: 68pt; 
+}
+
+.title {
+    font-family: 'Caveat', cursive;
+    font-size: 116pt; 
+}
+
 nav {
     width: auto;
     display: flex;
