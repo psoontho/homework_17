@@ -67,15 +67,27 @@ nav {
      ;
 }
 
-.otter {
+/*.otter {
     grid-area: image;
-    
-}
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}*/
 
 .caseStudy {
     height: 400px;
     background-color: #D95D5A;
     color: white;
+}
+
+.description {
+    grid-area: text;
+}
+
+#otter-picture {
+    width: 100%;
+    grid-area: image;
 }
 
 
