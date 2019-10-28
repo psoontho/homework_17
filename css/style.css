@@ -90,4 +90,17 @@ nav {
     grid-area: image;
 }
 
+.contactMe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 5%;
+    grid-template-areas: myPicture empty-1 contact; 
+    height: 200px;
+}
+
+.picture {
+    grid-area: myPicture; 
+    background-image: url("../images/my-picture.png");
+}
+
 
