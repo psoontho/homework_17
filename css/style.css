@@ -109,21 +109,26 @@ nav {
 
 .caseStudyGrid {
     display: grid;
-    margin: 0px 5%;
+    margin: 0px 10%;
     grid-template-columns: 1fr 1fr 1fr; 
-    height: 200px;
+    /*height: 200px;*/
     grid-template-areas: 
     "image image text"
      ;
 }
 
-/*.otter {
+                        /* Otter Here */
+
+.otter {
     grid-area: image;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("../images/non-profit.png");
+    height: 560px;
+    margin: 0px 8px;
 
-}*/
+}
 
 .caseStudy {
     padding-top: 48px;
@@ -136,12 +141,17 @@ nav {
 .description {
     grid-area: text;
     font-size: 16pt;
+    margin: 0px 8px;
 }
 
-#otter-picture {
-    width: 100%;
-    grid-area: image;
+.description p {
+    margin: 0px;
 }
+/* Otter Picture Here 
+
+#otter-picture {
+    grid-area: image;
+}*/
 
 .contactMe {
     display: grid;
@@ -168,7 +178,7 @@ nav {
 .smContainer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .instagram {
